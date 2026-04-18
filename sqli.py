@@ -1,6 +1,6 @@
 import requests
 def sqli_scan(url):
-  print(url)
+  print('扫描sql注入漏洞......')
   payload="'"
   error=['syntax error',
          'warning',

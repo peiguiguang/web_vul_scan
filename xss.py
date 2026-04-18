@@ -1,6 +1,6 @@
 import requests
 def xss_scan(url):
-  print(url)
+  print('扫描xss漏洞......')
   payload='<script>alert(1)</script>'
   try:
     res=requests.get(url+payload,timeout=5)
